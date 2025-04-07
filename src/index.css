@@ -1,0 +1,61 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1{
+   font-weight: 900;
+   text-align: center;
+   text-transform: capitalize;
+   color: #1E0825;
+}
+
+header{
+  height: 15vh;
+  background-color:#FDD02E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section{
+  min-height: 85vh;
+  background-color: grey;
+  display: flex;
+}
+
+.screen{
+  width: 75vw;
+  height: auto;
+  background-color: #DFE5EA;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px;
+}
+
+.input{
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-top: 100px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+.input-container input{
+  border: 0;
+  outline: 0;
+  font-size: 13px;
+}
+
+.cards{
+  height: 100px;
+  width: auto;
+}
+
