@@ -4,14 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './Header'
 import Section from './Section'
+import Parent from './Parent'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     <Header/>
-     <Section/>
+     <Parent/>
     </>
   )
 }
