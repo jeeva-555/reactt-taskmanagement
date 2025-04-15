@@ -5,14 +5,18 @@ import './App.css'
 import Header from './Header'
 import Section from './Section'
 import Parent from './Parent'
+import Com from './Com'
+import Cards from './Cards'
+import Photos from '../Photos'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     <Parent/>
+     <Photos/>
     </>
+
   )
 }
 
